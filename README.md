@@ -6,9 +6,15 @@ This project focuses on audio classification using spectrograms, providing a vis
 ### Preprocessing Options
 Choose the desired preprocessing method for spectrograms by adjusting the following parameter in the code:
 
-Set the preprocessing method
-0 for STFT only
-1 for Log scale spectrogram
-2 for Normalized Mel Spectrogram
-preprocessing_method = 2 is the default setting
+```python
+# Set the preprocessing method
+# 0 for STFT only
+# Example: preprocessing_method = 0
+
+# 1 for Log scale spectrogram
+# Example: preprocessing_method = 1
+
+# 2 for Normalized Mel Spectrogram (Default)
+# Example: preprocessing_method = 2
+
 
