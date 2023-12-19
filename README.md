@@ -1,8 +1,15 @@
-Audio classification with the usage of spectrograms 
+## Audio Classification with Spectrograms
 
-Adjust the preprocessing choice for the spectrogram preprocessing method 
-0 for STFT only 
-1 for Log scale spectrogram
-2 for Normalized Mel Spectrogram 
+### Overview
+This project focuses on audio classification using spectrograms, providing a visual representation of the frequency content of audio signals over time.
 
-Run the notebook for the projects 
+### Preprocessing Options
+Choose the desired preprocessing method for spectrograms by adjusting the following parameter in the code:
+
+```python
+# Set the preprocessing method
+# 0 for STFT only
+# 1 for Log scale spectrogram
+# 2 for Normalized Mel Spectrogram
+preprocessing_method = 1
+
